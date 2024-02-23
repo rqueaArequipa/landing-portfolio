@@ -1,7 +1,7 @@
-import AboutMe from '@/components/Home/AboutMe'
 import Hero from '@/components/Home/Hero'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
+import Services from '@/components/Home/Services'
 
 export default function Home () {
   return (
@@ -13,7 +13,7 @@ export default function Home () {
       </Head>
       <main>
         <Hero />
-        <AboutMe />
+        <Services />
       </main>
     </Layout>
   )
